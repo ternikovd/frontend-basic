@@ -1,0 +1,49 @@
+* {
+  color: gray;
+}
+
+p {
+  color: black;
+}
+
+.selector {
+  color: red;
+  padding-right: 10px;
+}
+
+.example1 {
+  color: indianred;
+}
+
+div p {
+  color: blueviolet;
+}
+
+p > span {
+  color: red;
+}
+
+.example4 + .example5 {
+  color: burlywood;
+}
+
+.example6,
+.example7 {
+  color: chocolate;
+}
+
+#defaultId {
+  color: blue;
+}
+
+p[title] {
+  color: darkgreen;
+}
+
+div[style] {
+  background-color: aqua;
+}
+
+p[class$="10"] {
+  color: aquamarine;
+}

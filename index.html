@@ -5,12 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HM_3</title>
+    <title>HM_4</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <h1>Селектори</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Види селекторів</h2>
+            <p><span class="selector">*</span>Обирає всі елементи на сторінці</p>
+            <p><span class="selector">.class</span>Вибірка елементів з классом .class</p>
+            <p><span class="selector">#id</span>Вибірка елементів з ідентифікатором id="id"</p>
+            <p><span class="selector">p</span>Обирає всі елементи &lt;p&gt;</p>
+            <p><span class="selector">[target]</span>Обирає елементи у яких є атрибут [target]</p>
+            <p><span class="selector">div p</span>Обирає всі елементи &lt;p&gt; в елементі &lt;div&gt;</p>
+            <p><span class="selector">div, p</span>Обирає всі елементи &lt;p&gt; та всі елементи &lt;div&gt;</p>
+            <p><span class="selector">div &gt; p</span>Обирає елементи &lt;p&gt; для яких батьківським елементов є
+                &lt;div&gt;</p>
+            <p><span class="selector">div + p</span>Обирає елемент &lt;p&gt; який знаходиться одразу після елементу
+                &lt;div&gt;</p>
+            <p><span class="selector">p[class^="default"]</span>Обирає всі елементи &lt;p&gt; в яких значення атрибуту
+                class починається з "default"</p>
+        </section>
+        <section>
+            <h2>Приклади</h2>
+            <p class="example1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur soluta
+                officia. Sequi tenetur officiis eum quam totam iste obcaecati!</p>
+            <p class="example2" id="defaultId">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+                consequuntur soluta
+                officia. Sequi tenetur officiis eum quam totam iste obcaecati!</p>
+            <div>
+                <p class="example3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur soluta
+                    officia. Sequi tenetur officiis eum quam totam iste obcaecati!</p>
+            </div>
+            <p class="example4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span>Hic consequuntur soluta
+                    officia.</span> Sequi tenetur officiis eum quam totam iste obcaecati!</p>
+            <p class="example5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur soluta
+                officia. Sequi tenetur officiis eum quam totam iste obcaecati!</p>
+            <p class="example6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur soluta
+                officia. Sequi tenetur officiis eum quam totam iste obcaecati!</p>
+            <p class="example7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur soluta
+                officia. Sequi tenetur officiis eum quam totam iste obcaecati!</p>
+            <p class="example8" title="superb">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic
+                consequuntur soluta
+                officia. Sequi tenetur officiis eum quam totam iste obcaecati!</p>
+            <div style="font-size: 24px;">
+                <p class="example9">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur soluta
+                    officia. Sequi tenetur officiis eum quam totam iste obcaecati!</p>
+            </div>
+            <p class="example10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur
+                soluta
+                officia. Sequi tenetur officiis eum quam totam iste obcaecati!</p>
+        </section>
+    </main>
     <footer></footer>
 </body>
 
