@@ -29,3 +29,28 @@ img {
 .hidden {
   display: none;
 }
+
+.cards {
+  background-color: bisque;
+}
+
+.card {
+  max-width: 300px;
+  display: inline-block;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: left;
+  background-color: darksalmon;
+}
+
+.h1 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.h2 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
