@@ -1,0 +1,53 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: calc(1110px + 2rem);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.description {
+  width: 25%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.values {
+  width: 75%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+#c-body, #c-brand, #c-country {
+  width: 150px;
+}
+
+

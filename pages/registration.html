@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>HW_7</title>
 </head>
 
@@ -13,24 +13,26 @@
     <header></header>
     <main>
         <section class="container">
-            <h1>Форма входу</h1>
+            <h1>Форма реєстрації</h1>
             <form action="https://fom.in.ua/echo" method="post" class="login-form">
                 <fieldset class="login-group">
-                    <legend>Авторизація</legend>
+                    <legend>Реєстрація</legend>
                     <div class="login-field">
-                        <label><input type="email" name="email" placeholder="Введіть email" required></label>
+                        <label><span>Введіть email:</span><input type="email" name="email" placeholder="Введіть email"
+                                required></label>
                     </div>
                     <div class="login-field">
-                        <label><input type="password" name="password" placeholder="Введіть пароль" required
-                                autocomplete="current-password"></label>
+                        <label><span>Придумайте пароль:</span><input type="password" name="password"
+                                placeholder="Введіть пароль" required></label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" name="checkbox" value="remember-me"><span>Запам'ятати
-                                мене</span></label>
+                    <div class="login-field">
+                        <label><span>Підтвердіть пароль:</span><input type="password" name="confirm-password"
+                                placeholder="Підтвердіть пароль" required></label>
                     </div>
                     <div class="button">
                         <button type="submit">Відправити</button>
                     </div>
+
 
                 </fieldset>
 

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/search.css">
+    <title>HW_7</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section class="container">
+            <h1>Форма пошуку</h1>
+            <form action="https://fom.in.ua/echo" method="post" class="search-form">
+                <div class="description">
+                    <label for="c-body">Тип кузова:</label>
+                </div>
+                <div class="values">
+                    <select name="car-body" id="c-body">
+                        <option value="none" selected disabled>Оберіть кузов</option>
+                        <option value="universal">Униіверсал</option>
+                        <option value="sedan">Седан</option>
+                        <option value="hatchback">Хетчбек</option>
+                    </select>
+                </div>
+                <div class="description">
+                    <label for="c-brand">Марка авто:</label>
+                </div>
+                <div class="values">
+                    <select name="car-brand" id="c-brand">
+                        <option value="none" selected disabled>Оберіть марку</option>
+                        <option value="audi">Audi</option>
+                        <option value="bmw">BMW</option>
+                        <option value="chevrolet">Chevrolet</option>
+                        <option value="ford">Ford</option>
+                        <option value="honda">Honda</option>
+                    </select>
+                </div>
+                <div class="description">
+                    <label for="c-country">Країна виробник:</label>
+                </div>
+                <div class="values">
+                    <select name="car-country" id="c-country">
+                        <option value="none" selected disabled>Оберіть країну</option>
+                        <option value="germany">Німеччина</option>
+                        <option value="japan">Японія</option>
+                        <option value="usa">США</option>
+                        <option value="france">Франція</option>
+                        <option value="korea">Корея</option>
+                    </select>
+                </div>
+                <div class="description">
+                    <label for="c-year">Рік випуску:</label>
+                    <!-- <label for="c-year-end"></label> -->
+                </div>
+                <div class="values">
+                    <select name="car-year" id="c-year">
+                        <option value="none" selected disabled>Від, рік</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                    </select>
+                    <select name="car-year" id="c-year-end">
+                        <option value="none" selected disabled>До, рік</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                        <option value="2004">2004</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                    </select>
+                </div>
+                <div class="description">
+                    <label for="c-price">Ціна ($):</label>
+                    <!-- <label for="c-price-end"></label> -->
+                </div>
+                <div class="values">
+                    <input type="number" name="car-price" id="c-price" placeholder="Ціна, від">
+                    <input type="number" name="car-price" id="c-price-end" placeholder="Ціна, до">
+                </div>
+                <div class="description">
+                    <span>Стан:</span>
+                </div>
+                <div class="values">
+                    <label for="crashed">Битий</label>
+                    <input type="checkbox" name="additional" id="crashed" value="crashed">
+                    <label for="colored">Крашений</label>
+                    <input type="checkbox" name="additional" id="colored" value="colored">
+                    <label for="credit">У кредиті</label>
+                    <input type="checkbox" name="additional" id="credit" value="credit">
+                    <label for="clearance">Розмитненний</label>
+                    <input type="checkbox" name="additional" id="clearance" value="clearance">
+                </div>
+                <div class="description">
+                    <span>Тип палива:</span>
+                </div>
+                <div class="values">
+                    <input type="radio" name="car-fuel" id="f-gas" value="f-gas">
+                    <label for="f-gas">Газ</label>
+                    <br>
+                    <input type="radio" name="car-fuel" id="f-petrol" value="f-petrol">
+                    <label for="f-petrol">Бензин</label>
+                    <br>
+                    <input type="radio" name="car-fuel" id="f-gybrid" value="f-gybrid">
+                    <label for="f-gybrid">Гібрид</label>
+                    <br>
+                    <input type="radio" name="car-fuel" id="f-electro" value="f-electro">
+                    <label for="f-electro">Електро</label>
+                </div>
+                <div class="description">
+                    <span>КПП</span>
+                </div>
+                <div class="values">
+                    <input type="radio" name="gearbox" id="g-manual" value="g-manual">
+                    <label for="g-manual">Механічна</label>
+                    <br>
+                    <input type="radio" name="gearbox" id="g-auto" value="g-auto">
+                    <label for="g-auto">Автомат</label>
+                    <br>
+                    <input type="radio" name="gearbox" id="g-robot" value="g-robot">
+                    <label for="g-robot">Робот</label>
+                    <br>
+                    <input type="radio" name="gearbox" id="g-tronik" value="g-tronik">
+                    <label for="g-tronik">Типтронік</label>
+                </div>
+                <div class="description">
+                    <label for="c-color">Колір:</label>
+                </div>
+                <div class="values">
+                    <select name="car-color" id="c-color">
+                        <option value="none" selected disabled>Оберіть колір</option>
+                        <option value="black">Чорний</option>
+                        <option value="white">Білий</option>
+                        <option value="red">Червоний</option>
+                        <option value="yellow">Жовтий</option>
+                        <option value="green">Зелений</option>
+                        <option value="blue">Синій</option>
+                    </select>
+                </div>
+                <button type="submit">Пошук</button>
+            </form>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

@@ -29,3 +29,56 @@ img {
 .hidden {
   display: none;
 }
+
+h1 {
+  text-align: center;
+}
+
+legend {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.login-form {
+  margin: auto;
+  max-width: 50%;
+  padding: 2rem;
+}
+
+.login-group {
+  border: 2px solid orange;
+  border-radius: 1rem;
+  background-color: antiquewhite;
+}
+
+.button {
+  margin: 1rem;
+}
+
+button {
+  padding: 0.2rem;
+}
+
+.login-field {
+  margin: 1rem;
+}
+
+.checkbox {
+  margin: 1rem;
+}
+
+.checkbox span {
+  padding-left: 5px;
+}
+
+.login-field input {
+  height: 2rem;
+  padding-left: 0.5rem;
+  border: 1px solid orange;
+  border-radius: 8px;
+}
+
+.login-field span {
+  display: block;
+  padding-bottom: 0.5rem;
+}
