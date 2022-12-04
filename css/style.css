@@ -1,3 +1,9 @@
+:root {
+  --color-bgray: #eeeff1;
+  --color-tgray: #727272;
+  --color-blue: #34547a;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +12,9 @@
 
 html {
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
 }
 
 a {
@@ -28,4 +37,148 @@ img {
 
 .hidden {
   display: none;
+}
+
+.section-nav {
+  background-color: var(--color-bgray);
+}
+
+.section-top {
+  background-color: var(--color-bgray);
+  padding-top: 150px;
+  padding-bottom: 140px;
+}
+
+.navbar {
+  display: inline-block;
+  padding-top: 80px;
+}
+
+.nav-link {
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.nav-link + .nav-link {
+  margin-left: 42px;
+}
+
+.nav-link:hover {
+  color: var(--color-blue);
+}
+
+.title-top {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.title-top + .description {
+  padding-top: 60px;
+  max-width: 540px;
+}
+
+.description {
+  color: var(--color-tgray);
+}
+
+button {
+  background-color: var(--color-blue);
+  cursor: pointer;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 25px 70px;
+  margin-top: 65px;
+  letter-spacing: 0.1em;
+  line-height: 1.6;
+}
+
+/* ----------------------------------------------- */
+
+.section-about {
+  background-color: #f9f9f9;
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-title + .description {
+  max-width: 540px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* -------------------------------------------------------- */
+
+.section-projects {
+  background-color: var(--color-blue);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* .projects {
+} */
+
+.project-card {
+  display: inline-block;
+  width: 100%;
+  max-width: 140px;
+}
+
+.project-card + .project-card {
+  margin-left: 45px;
+}
+
+.p-image {
+  float: left;
+  padding-right: 20px;
+}
+
+.p-title {
+  color: white;
+  font-size: 21px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.p-description {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* --------------------------------- */
+
+.section-video {
+  background-color: var(--color-bgray);
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+
+.s-video {
+  margin-top: 60px;
+  width: 100%;
+}
+
+/* -------------------------------------------- */
+
+.section-footer {
+  background-color: var(--color-blue);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.f-rights {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 20px;
 }
