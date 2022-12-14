@@ -31,3 +31,59 @@ img {
 .hidden {
   display: none;
 }
+
+/* --------------------------------------------- */
+
+.navbar {
+  position: relative;
+  background-color: burlywood;
+}
+
+.menu > li {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+
+ul {
+  font-size: 0;
+  list-style: none;
+}
+
+li {
+  position: relative;
+  font-size: 16px;
+}
+
+a {
+  display: block;
+  padding: 15px 30px;
+  white-space: nowrap;
+}
+
+li:hover > a,
+a:hover {
+  background-color: coral;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: burlywood;
+}
+
+li:hover > .submenu {
+  position: absolute;
+  display: block;
+}
+
+.submenu li .submenu {
+  position: absolute;
+  /* display: none; */
+  left: 100%;
+  top: 0;
+}
+
+.plus {
+  padding-left: 30px;
+}
